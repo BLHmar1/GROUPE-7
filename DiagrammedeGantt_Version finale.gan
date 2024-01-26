@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Diagramme de Gantt 2.0" company="" webLink="http://" view-date="2023-12-18" view-index="0" gantt-divider-location="549" resource-divider-location="300" version="3.3.3300" locale="en_US">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="267" order="0"/>
+        <field id="tpd4" name="Begin date" width="107" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpc0" name="Durée de la tache " width="99" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Durée de la tache " type="custom" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="f8f9fd4331b94c5b848a0ab54705ebd0" name="Dimensionnement du terrain" color="#8cb6ce" meeting="false" start="2023-12-11" duration="5" complete="0" thirdDate="2023-12-08" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Str : Dimensionnement de la surface de test.]]></notes>
+        </task>
+        <task id="1" uid="662844ca32ac4588bf94a13ebba55abf" name="Composants de la station" color="#8cb6ce" meeting="false" start="2023-12-11" duration="5" complete="0" thirdDate="2023-12-08" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[+ Quantite d'eau: Qar
++ Puissance energitique : Par (kWh)
+]]></notes>
+        </task>
+        <task id="3" uid="94f45133c318469c84837aa753aa1a66" name="Pile a combustible" color="#8cb6ce" meeting="false" start="2023-12-18" duration="5" complete="0" thirdDate="2023-12-08" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[+ Quelle pile a combustible faut-il utiliser ?  
++ Combien d'hydrogene a-t-elle besoin ? (Qh)]]></notes>
+        </task>
+        <task id="45" uid="1c4d84c1fd75438b98462247bf1c8496" name="Stockage d'hydrogene" meeting="false" start="2023-12-18" duration="5" complete="0" thirdDate="2023-12-25" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[+ Recherche du Tank sur le marche.]]></notes>
+        </task>
+        <task id="46" uid="108de055ae7742ffb8813c3afe5032e5" name="Dimensionnement de l'eletrolyseur" meeting="false" start="2023-12-25" duration="5" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[+ Consomation de l'eau en (L/h).
++ Chercher le debit.
++ Donnes : QH2pro ; Quantite de H2 a produire [Nm3].
++ Puissance d'alimentation [Kw].]]></notes>
+        </task>
+        <task id="47" uid="41e8283a62d54ee2b0f7e632f82648db" name="Dimensionnement de PPV" meeting="false" start="2023-12-25" duration="5" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[+ Chercher La taille, et le type des panneaux photovoltaïques.
++ Calculer l'energie demande en Kw.]]></notes>
+        </task>
+        <task id="21" uid="0ccc218c314d429fa9ca17f16d98e3ae" name="Calcul de l'optimistion du cout et estimation de la duree de vie" color="#8cb6ce" meeting="false" start="2024-01-01" duration="5" complete="0" thirdDate="2023-12-08" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[+ Calcul de l'optimistion du cout.
+ + Estimation de la duree de vie de notre systeme.]]></notes>
+            <depend id="44" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="48" uid="193f668611da45b18f8ccf3c30a5e335" name="Creation d'un site vitrine" meeting="false" start="2024-01-08" duration="5" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[+ Creation d'un site vitrine pour presenter notre entreprise ,proposer nos servises ,et afficher les contacts de nos experts !]]></notes>
+        </task>
+        <task id="44" uid="4325f74de18d42f2b76324d0c5b11f51" name="Préparation de la présentation du projet" color="#8cb6ce" meeting="false" start="2024-01-08" duration="5" complete="0" thirdDate="2023-12-08" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Ximena " function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Karima " function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Sofiane" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Aymen " function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Youssef" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Marwane" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Fadel " function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
