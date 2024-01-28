@@ -10,3 +10,7 @@ Lorsque le besoin en énergie se fait sentir, notre pile à combustible entre en
 
 ![Diagramme explicatif](https://github.com/BLHmar1/GROUPE-7/blob/main/diagrammeduSysteme.png)
 
+N'hésitez pas à consulter les autres documents essentiels
+- [analyse SWOT Groupe 7.pdf](https://github.com/BLHmar1/GROUPE-7/blob/Analyse-SWOT/analyse%20SWOT%20Groupe%207.pdf)
+- [Diagramme de Gantt](https://github.com/BLHmar1/GROUPE-7/blob/Diagramme-de-Gantt/DiagrammedeGantt_Version%20finale.gan)
+- [](ZOO.md)
