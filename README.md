@@ -7,4 +7,6 @@ Notre système de stockage d'hydrogène constitue le pivot de notre approche. Le
 
 Lorsque le besoin en énergie se fait sentir, notre pile à combustible entre en jeu. En utilisant l'hydrogène stocké, la pile à combustible génère de l'électricité de manière propre et efficace, alimentant ainsi le système d'arrosage. Cette approche offre une solution sans émissions, favorisant une agriculture plus propre et plus respectueuse de l'environnement.
 
-N'hésitez pas à consulter le diagramme qui explique notre système : https://github.com/BLHmar1/GROUPE-7/blob/main/diagrammeduSysteme.png
+
+![Diagramme explicatif](https://github.com/BLHmar1/GROUPE-7/blob/main/diagrammeduSysteme.png)
+
