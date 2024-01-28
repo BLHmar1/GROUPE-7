@@ -12,10 +12,10 @@ Lorsque le besoin en énergie se fait sentir, notre pile à combustible entre en
 
 
 N'hésitez pas à consulter les autres documents essentiels
-- [Notre cas d'étude](Study_case.pdf)
+- [Notre cas d'étude](https://github.com/BLHmar1/GROUPE-7/blob/Study-case/Study_case.pdf)
 - [analyse SWOT Groupe 7.pdf](https://github.com/BLHmar1/GROUPE-7/blob/Analyse-SWOT/analyse%20SWOT%20Groupe%207.pdf)
-- [Diagramme de Gantt](DiagrammeDeGantt.png)
-- [Info sur les PPV](PPV.pdf)
-- [Info sur l'Electrolyseur](Rapport_Elecrolyseur.pdf)
+- [Diagramme de Gantt](https://github.com/BLHmar1/GROUPE-7/blob/Diagramme-de-Gantt/DiagrammeDeGantt.png)
+- [Info sur les PPV](https://github.com/BLHmar1/GROUPE-7/blob/Panneaux-Photovolta%C3%AFques/PPV.pdf)
+- [Info sur l'Electrolyseur](https://github.com/BLHmar1/GROUPE-7/blob/electrolyseur/Rapport_Elecrolyseur.pdf)
 - [Info sur le stockage d'H₂](https://github.com/BLHmar1/GROUPE-7/blob/Stockage-hydrog%C3%A8ne/Fadel_stockage_hydrog%C3%A8ne%20(2).pdf)
 - [Info sur la pile à combustible](https://github.com/BLHmar1/GROUPE-7/blob/Pile-a-combustible/Pile%20%C3%A0%20combustiblefinal.pdf)
